@@ -1,0 +1,11 @@
+Este es un archivo de prueba para practicar con git.
+
+El contenido del mismo es puramente de prueba.
+
+< ------------------------------------------------------- >
+
+Diego test 1 [dibot55] & desarrollo:
+
+	- Tiene 22 años
+	- Esta casado y no tiene hijos, tiene gatitos
+	- Es desarrollador web
