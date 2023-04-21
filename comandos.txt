@@ -1,0 +1,56 @@
+git init
+  - crea -git en tu directorio de trabajo
+
+git status
+  - mira el status actual de tu directorio
+
+git log
+  - mira el historial de commits de un archivo en especifio o de todo el directorio
+
+git show
+  - Permite ver los cambios que se hicieron sobre un archivo
+
+git add
+  - agrega un archivo al stash
+
+git rm --cached
+  - Elimina un archivo del stash
+
+git rm --force
+  - Elimina un archivo del stash y del disco duro
+
+git commit -m "desc"
+  - Guarda un cambio del stash a repositorio
+
+git diff idcomit1 idcomit2
+  - Hace una comparacion entre dos commits
+
+git reset id --hard
+  - Elimina el commit, el stash y el tracked de un archivo que dando como untracked
+  - Volvemos a ese commit que elegimos pero los posteriores son borrados
+
+git reset id --soft
+  - Elimina un commit pero sin quitar el stash de un archivo y poder hacer otro commit
+  - Volvemos a ese commit que elegimos pero los commits posteriores tambien pierden seguimiento y son borrados
+
+git reset id --mixed
+  - Elimina un commit y el stash pero el archivo sigue siendo tracked
+  - Los commits posteriores tambien son eliminados de git
+
+git checkout id archivo.txt
+  - Mueve el HEAD a un commit en especifico
+
+git clone url
+  - clona un repositorio remoto
+
+git fetch
+  - Obtiene los cambios de un repositorio remoto
+
+git merge
+  - Fuciona tu directorio de trabajo con el del directorio del repositorio remoto
+
+git push origin main
+  - Envia un cambio a la rama main de un repositorio remoto 
+
+git brach new_brach
+  - crea una nueva rama
