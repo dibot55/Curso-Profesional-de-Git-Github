@@ -16,3 +16,5 @@ Puede parecer guapo pero realmente no lo es.
 Ahora es un ingeniero de sistemas computacionales
 
 Este cambio es extra. Fue hecho para testear git reset <id> --soft
+
+Test para usar checkout
