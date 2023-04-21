@@ -12,3 +12,7 @@ Diego test 1 [dibot55] & desarrollo:
 	- Es desarrollador web backend con JavaScript
 
 Puede parecer guapo pero realmente no lo es.
+
+Ahora es un ingeniero de sistemas computacionales
+
+Este cambio es extra. Fue hecho para testear git reset <id> --soft
