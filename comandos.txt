@@ -54,3 +54,12 @@ git push origin main
 
 git brach new_brach
   - crea una nueva rama
+
+git log --oneline
+  - Muestra el id y el titulo de todos los commits
+
+git log --decorate
+  - Muestra donde esta  el HEAD point del log
+
+git log --stat
+  - Indica brevemente que cambio en el ultimo commit
