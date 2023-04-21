@@ -10,3 +10,5 @@ Diego test 1 [dibot55] & desarrollo:
 	- Tiene 22 años
 	- Esta casado y no tiene hijos, tiene gatitos
 	- Es desarrollador web backend con JavaScript
+
+Puede parecer guapo pero realmente no lo es.
