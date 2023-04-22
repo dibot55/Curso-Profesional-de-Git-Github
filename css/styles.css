@@ -4,3 +4,14 @@ body{
   background: rgb(53, 51, 51);
   color: rgb(228, 225, 225);
 }
+
+.container{
+  border: 1px solid rgba(220, 223, 230, 0.4);
+  padding: 1cm;
+  text-align: center;
+}
+
+.poste{
+  text-align: left;
+  padding: 1cm;
+}
