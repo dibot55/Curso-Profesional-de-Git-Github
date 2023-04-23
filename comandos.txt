@@ -115,8 +115,12 @@ git fetch
 git merge
   - Fuciona tu directorio de trabajo con el del directorio del repositorio remoto
 
-git pull origin main --allow-unrelated-histories
+git pull origin main
   - hace lo de fetch y merge a la vez
+
+git pull origin main --allow-unrelated-histories
+  - Cuando traes cambios de otro repositorio remoto que no tiene relacion con tu repositorio local.
+  - Fusiona lo que hay en el repositorio remoto con el local a la fuerza
 
 git push origin main
   - Envia un cambio a la rama main de un repositorio remoto 
