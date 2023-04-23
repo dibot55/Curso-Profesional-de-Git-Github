@@ -1,3 +1,5 @@
+------------------------- Comandos basicos de git para manipular el stash ------------------------
+
 git init
   - crea -git en tu directorio de trabajo
 
@@ -25,6 +27,8 @@ git commit -m "desc"
 git diff idcomit1 idcomit2
   - Hace una comparacion entre dos commits
 
+---------------- Volver a un commit anterior ------------------------
+
 git reset id --hard
   - Elimina el commit, el stash y el tracked de un archivo que dando como untracked
   - Volvemos a ese commit que elegimos pero los posteriores son borrados
@@ -40,6 +44,59 @@ git reset id --mixed
 git checkout id archivo.txt
   - Mueve el HEAD a un commit en especifico
 
+
+------------- Manipulacion de ramas o branches ----------------------------
+
+git brach new_brach
+  - crea una nueva rama
+
+git checkout branch_name
+  - Mueve el HEAD a la rama que le indiques
+
+git checkout -b branch_name
+  - Crea la rama y te mueve a ella
+
+git merge branch_name
+  - Fusiona dos ramas y genera un commit. (Depende de en que rama este tu HEAD el resultado del merge)
+
+git merge --abort
+  - revierte un merge
+
+git branch -M main
+  - Mueve todos tus commits a otra rama (por lo del cambio de master a main)
+
+----------------- Extra de logs -------------------------------------------
+
+git log --oneline
+  - Muestra el id y el titulo de todos los commits
+
+git log --decorate
+  - Muestra donde esta  el HEAD point del log
+
+git log --stat
+  - Indica brevemente que cambio en el ultimo commit
+
+-------------------- SSH KEYS --------------------------------------------
+
+ssh-keygen -t ed25519 -b 4096 -C "correo@dominio.com"
+  - Genera una llave SSH (publica y privada) con el correo electronico usando ed25519
+
+ssh-keygen -t rsa -b 4096 -C "correo@dominio.com"
+  - Lo mismo que el anterior pero usando un algoritmo mas viejo
+
+ssh-add ~/.ssh/id_rsa
+  - Agrega la llave privada al binario de linux que administra las llaves SSH
+
+-------------------- Configuracion --------------------------------
+
+git config --global user.email "email.dominio.com"
+  - añade un correo electronico a git
+
+git config --global user.name "username"
+  - Agrega tu nombre de usuario
+
+--------------------------- Comandos para repositorios remotos ------------------
+
 git clone url
   - clona un repositorio remoto
 
@@ -51,15 +108,3 @@ git merge
 
 git push origin main
   - Envia un cambio a la rama main de un repositorio remoto 
-
-git brach new_brach
-  - crea una nueva rama
-
-git log --oneline
-  - Muestra el id y el titulo de todos los commits
-
-git log --decorate
-  - Muestra donde esta  el HEAD point del log
-
-git log --stat
-  - Indica brevemente que cambio en el ultimo commit
