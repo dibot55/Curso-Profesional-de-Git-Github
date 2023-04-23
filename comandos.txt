@@ -100,11 +100,23 @@ git config --global user.name "username"
 git clone url
   - clona un repositorio remoto
 
+git remote add origin main url_del_repo
+  - guarda el url del repositorio con el nombre "origin"
+
+git remote
+  - muestra los nombres de los repositorios remotos
+
+git remote -v
+  - Muestra las acciones que se pueden hacer con el repositorio remoto
+
 git fetch
-  - Obtiene los cambios de un repositorio remoto
+  - Obtiene los cambios de un repositorio remoto al repositorio local (.git)
 
 git merge
   - Fuciona tu directorio de trabajo con el del directorio del repositorio remoto
+
+git pull origin main --allow-unrelated-histories
+  - hace lo de fetch y merge a la vez
 
 git push origin main
   - Envia un cambio a la rama main de un repositorio remoto 
