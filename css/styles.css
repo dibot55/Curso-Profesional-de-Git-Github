@@ -15,3 +15,10 @@ body{
   text-align: left;
   padding: 1cm;
 }
+
+.header{
+  background: rgb(156, 158, 160);
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em;
+}
