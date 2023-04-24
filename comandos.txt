@@ -76,6 +76,9 @@ git log --decorate
 git log --stat
   - Indica brevemente que cambio en el ultimo commit
 
+git log --graph --oneline --all --decorate
+  - Muestra de manera grafica las ramas y commits del repositorio en la terminal 
+
 -------------------- SSH KEYS --------------------------------------------
 
 ssh-keygen -t ed25519 -b 4096 -C "correo@dominio.com"
@@ -124,3 +127,31 @@ git pull origin main --allow-unrelated-histories
 
 git push origin main
   - Envia un cambio a la rama main de un repositorio remoto 
+
+-----------------------------------  Tags ---------------------------------------
+
+git tag
+  - Muestra los tags que hay en tu repositorio
+
+git tag -a <tag_name> -m "Descripcion del tag" <id del commit>
+  - Asigna un tag a un commit
+
+git show-ref --tags
+  - Muestra los commits asignados a su tag respectivo
+
+git push origin --tags
+  - Envia los tags a github
+
+git tag -d <tag_name>
+  - Elimina un tag del repositorio
+
+git push origin :refs/tags/<tag_name>
+  - Elimina la referencia al tag en github (por defecto github no borra los tags)
+
+---------------------------- PUSH -------------------------------------------------
+
+git push origin main
+  - Envia los cambios a un repositorio remoto
+
+git push origin --tags
+  - Envia los tags a un repositorio remoto
