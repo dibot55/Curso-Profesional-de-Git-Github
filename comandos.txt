@@ -65,6 +65,18 @@ git merge --abort
 git branch -M main
   - Mueve todos tus commits a otra rama (por lo del cambio de master a main)
 
+git show-branch
+  - Muestra cuales son las ramas que existen y cual a sido su historia
+
+git show-branch --all
+  - muestra todas las ramas incluyendo las remotas y cual a sido su historia
+
+gitk
+  - Muestra de manera grafica toda la informacion del repositorio (ramas, commits, tags y mas)
+
+git push origin <nombre_de_la_rama>
+  - Envia una rama a github
+
 ----------------- Extra de logs -------------------------------------------
 
 git log --oneline
@@ -155,3 +167,6 @@ git push origin main
 
 git push origin --tags
   - Envia los tags a un repositorio remoto
+
+git push origin <branch_name>
+  - Envia una rama a github
