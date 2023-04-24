@@ -14,6 +14,11 @@ body{
 .poste{
   text-align: left;
   padding: 1cm;
+  border: 1px solid rgba(220, 223, 230, 0.4);
+}
+
+.botoncito{
+  text-align: right;
 }
 
 .header{
