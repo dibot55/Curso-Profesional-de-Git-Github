@@ -213,3 +213,8 @@ git clean -f
 
 git clean -df
   - Elimina directorios untracked del disco duro y del repositorio
+
+--------------------------- cherry pick --------------------------------------------------
+
+git cherry-pik id_del_commit
+  - Trae el cambio de un commit en especifico de otra rama o la misma.  (Mala practica)
