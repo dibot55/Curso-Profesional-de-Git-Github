@@ -170,3 +170,7 @@ git push origin --tags
 
 git push origin <branch_name>
   - Envia una rama a github
+
+------------------------ Rebase ---------------------------------------------------
+
+commands
