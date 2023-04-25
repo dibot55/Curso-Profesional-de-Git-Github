@@ -173,4 +173,6 @@ git push origin <branch_name>
 
 ------------------------ Rebase ---------------------------------------------------
 
-commands
+git rebase main
+  - desde la rama actual (experimento, header, footer, bugfix, etc) haces rebase a la rama main
+  (pega mi historia a main)
