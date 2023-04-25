@@ -185,3 +185,20 @@ git rebase [nombre_de_tu_rama]
 
 git branch -D [tu_rama]
   - Elimina una rama
+
+------------------------------------- Git Stash -----------------------------------
+
+git stash
+  - Guarda los cambios realizados de manera temporal si no ocupas realizar un commit
+
+git stash list
+  - Muestra todos los stash guardados en forma de lista
+
+git stash pop
+  - coloca los cambios que guardaste con git stash en la rama que te ubiques.
+
+git stash branch [rama_name]
+  - Coloca el stash guardado en otra rama. (la crea si no existe)
+
+git stash drop
+  - Elimina el stash guardado (tiene multiples usos como regresar un cambio atras despues de guardar por accidente o guardar el stash mal)
