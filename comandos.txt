@@ -202,3 +202,14 @@ git stash branch [rama_name]
 
 git stash drop
   - Elimina el stash guardado (tiene multiples usos como regresar un cambio atras despues de guardar por accidente o guardar el stash mal)
+
+-------------------------------- clean -------------------------------------------------
+
+git clean
+  - elimina archivos untracked del indice del repositorio.
+
+git clean -f
+  - Elimina archivos untracked del repositorio y del disco duro.
+
+git clean -df
+  - Elimina directorios untracked del disco duro y del repositorio
