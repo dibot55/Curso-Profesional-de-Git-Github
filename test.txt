@@ -17,4 +17,6 @@ Ahora es un ingeniero de sistemas computacionales
 
 Este cambio es extra. Fue hecho para testear git reset <id> --soft
 
-Este cambio se realizo despues de un checkout en el commit anterior -> Mira el historal de commits con log
+Este cambio se realizo despues de un checkout en el commit anterior -> Mira el historal de commits con log 
+
+Este es un cambio para hacer un commit en main
