@@ -50,6 +50,9 @@ git checkout id archivo.txt
 git brach new_brach
   - crea una nueva rama
 
+git branch -D [tu_rama]
+  - Elimina una rama
+
 git checkout branch_name
   - Mueve el HEAD a la rama que le indiques
 
@@ -179,3 +182,6 @@ git rebase main
 
 git rebase [nombre_de_tu_rama]
   - De esta manera los commits de [Tu_rama] ahora estan en la rama main y [tu_rama] existe pero ya no tiene cambios que lo diferencien de main.
+
+git branch -D [tu_rama]
+  - Elimina una rama
