@@ -174,4 +174,8 @@ git push origin <branch_name>
 ------------------------ Rebase ---------------------------------------------------
 
 git rebase main
-  - desde la rama actual (experimento, header, footer, bugfix, etc) haces rebase a la rama main (pega mi historia a main) eliminando la rama actual.
+  - desde la rama actual (experimento, header, footer, bugfix, etc) haces rebase a la rama main (pega mi historia a main).
+  - Luego debes hacer lo mismo pero a [tu rama] 
+
+git rebase [nombre_de_tu_rama]
+  - De esta manera los commits de [Tu_rama] ahora estan en la rama main y [tu_rama] existe pero ya no tiene cambios que lo diferencien de main.
