@@ -232,3 +232,17 @@ git reset --hard id_del_commit
 
 git commit --amend
   - los cambios actuales los pega al commit anterior. (pero debes hacer un add antes)
+
+---------------------------------- Buscar con greep y log ------------------------------------
+
+grep -> archivos
+log -> commits
+
+git grep -n color
+  - muestra en donde has ocupado "color" y en que linea en la ruta actual
+
+git grep  -c color
+  - Muestra cuantas veces se a ocupado "color" por archivo
+
+git log -S "cabecera"
+  - Muestra cuantas veces se ha ocupado "cabecera" en los commits
