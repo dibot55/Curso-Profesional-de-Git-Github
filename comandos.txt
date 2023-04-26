@@ -46,6 +46,11 @@ git checkout id archivo.txt
 
 
 ------------- Manipulacion de ramas o branches ----------------------------
+git branch
+  - muestra todas las ramas
+
+git branch -a
+  - muestra todas las ramas incluyendo las remotas
 
 git brach new_brach
   - crea una nueva rama
@@ -246,3 +251,30 @@ git grep  -c color
 
 git log -S "cabecera"
   - Muestra cuantas veces se ha ocupado "cabecera" en los commits
+
+-------------------------Comandos colaborativos --------------------------------------------
+
+git shortlog -sn
+  - Muestra un log por cada miembro del equipo en el repositorio
+
+git shortlog -sh --all
+  - Muestra lo anterior pero con todos los commits incluyendo los borrados
+
+git shortlog -sn --all --no-merges
+  - Lo anterior pero sin incluir merges
+
+-----------------------------------------Alias en git-------------------------------------------
+
+git config --global alias.nombre_del_alias "shortlog -sn --all --no-merges"
+  - Agrega un alias global del comando "shortlog -sn --all --no-merges"
+
+------------------------------------ blame -------------------------------------------------------
+
+git blame archivo
+  - permite ver quien hizo que en un archivo en especifico
+
+git blame -c archivo
+  - Indenta mejor el blame
+
+git blame archivo -L 30,50
+  - Muestra quien hizo que de la linea 30 a la 50
