@@ -227,3 +227,8 @@ git reflog
 
 git reset --hard id_del_commit
   - Vuelve al commit que le indicaste borrando el historial de git log
+
+----------------------------------- amend -------------------------------------------------
+
+git commit --amend
+  - los cambios actuales los pega al commit anterior. (pero debes hacer un add antes)
