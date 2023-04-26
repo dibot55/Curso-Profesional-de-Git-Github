@@ -218,3 +218,12 @@ git clean -df
 
 git cherry-pik id_del_commit
   - Trae el cambio de un commit en especifico de otra rama o la misma.  (Mala practica)
+
+--------------------------------- git reflog & git reset ---------------------------------
+Para casos de emergencia
+
+git reflog
+  - Muestra ABSOLUTAMENTE TODOS los cambios que has hecho en git. Si, hasta cuando borraste algo o hechaste a perder algo.
+
+git reset --hard id_del_commit
+  - Vuelve al commit que le indicaste borrando el historial de git log
